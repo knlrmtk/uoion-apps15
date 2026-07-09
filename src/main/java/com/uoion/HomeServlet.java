@@ -38,7 +38,7 @@ public class HomeServlet extends HttpServlet {
         request.setAttribute("time",
                 LocalDateTime.now().format(formatter));
 
-        request.getRequestDispatcher("/index.jsp")
+        request.getRequestDispatcher("/WEB-INF/index.jsp")
                 .forward(request, response);
     }
 
