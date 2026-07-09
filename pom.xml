@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>uoion-apps15</finalName>
+    <finalName>apps15</finalName>
   </build>
 </project>
